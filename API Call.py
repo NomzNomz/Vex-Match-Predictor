@@ -59,5 +59,21 @@ def getTeamScores(teamNumber):
     team_id = response.json()['data'][0]['id']
     return(response.json())
 
+from pprint import pprint
+import pandas as pd
+pprint(getTeamScores("25600Y"))
 
-print(getTeamScores("25600Y"))
+match_scores = []
+matches= getTeamScores("25600Y")
+matches = matches.get('data')
+for match in matches:
+    temp_match_scores = []
+    match_info = match.get("alliances")[0:2]
+    for i in range(2):
+        temp_match_scores.append(match_info[i].get("score"))
+        temp_match_scores.append(match_info[i].get("teams")[0].get("team").get("name"))
+        temp_match_scores.append(match_info[i].get("teams")[1].get("team").get("name"))
+    match_scores.append(temp_match_scores)
+
+print(match_scores)
+

@@ -75,5 +75,5 @@ for match in matches:
         temp_match_scores.append(match_info[i].get("teams")[1].get("team").get("name"))
     match_scores.append(temp_match_scores)
 
+match_scores = pd.DataFrame(match_scores, columns = ["bscore", "bteam1", "bteam2", "rscore", "rteam1", "rteam2"])
 print(match_scores)
-

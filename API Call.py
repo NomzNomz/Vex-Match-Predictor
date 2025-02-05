@@ -191,9 +191,10 @@ match_scores = []
 
 #print(match_scores)
 print(getEventIds())
+event_list = getEventIds()
 
-
-
+for i in event_list:
+    pprint(getTeamsFromEvent(str(i)))
 
 
 

@@ -158,9 +158,16 @@ def getEvents():
     teams = response.json()
     return(teams)
 
+def getEventIds():
+    ids = []
+    for event in getEvents().get('data'):
+        ids.append(event.get('id'))
+    return ids
+
 def get_match_scores(teamid):
     matches = getTeamScores(teamid)
     matches = matches.get('data')
+    match_scores = []
     for match in matches:
         temp_match_scores = []
         match_info = match.get("alliances")[0:2]
@@ -183,7 +190,7 @@ match_scores = []
             #match_scores.append(match)
 
 #print(match_scores)
-pprint(getEvents())
+print(getEventIds())
 
 
 

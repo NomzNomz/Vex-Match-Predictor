@@ -194,7 +194,7 @@ print(getEventIds())
 event_list = getEventIds()
 
 for i in event_list:
-    pprint(getTeamsFromEvent(str(i)))
+    pprint(getTeamScores(str(i)))
 
 
 

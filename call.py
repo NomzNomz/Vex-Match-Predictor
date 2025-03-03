@@ -72,11 +72,30 @@ def getTeams(grade = "High School"):
         "Accept": "application/json"  # Explicitly request JSON
     }
 
-    params = {
-        "grade[]": grade,
-        "per_page": 25
-    }
+    all_teams = []
+    page = 1
+    per_page = 250
 
+    while True:
+        params = {
+            "grade[]": grade,
+            "per_page": per_page,
+            "page": page
+        }
+        response = requests.get(url, headers=headers, params=params)
+        if response.status_code != 200:
+            break
+        data = response.json()
+        teams = data.get('data', [])
+
+        # if not isinstance(teams, list) or not teams:
+        #     break
+
+        all_teams.extend(teams)
+
+        page += 1
+
+    return all_teams
     # Query parameters
 
     # Make the request
@@ -190,11 +209,18 @@ match_scores = []
             #match_scores.append(match)
 
 #print(match_scores)
-print(getEventIds())
-event_list = getEventIds()
 
-for i in event_list:
-    pprint(getTeamScores(str(i)))
+teamlist = getTeams()
+pprint(teamlist)
+import json
+
+with open("teams_data.json", "w") as f:
+    json.dump(teamlist, f, indent=4)
+# print(getEventIds())
+# event_list = getEventIds()
+#
+# for i in event_list:
+#     pprint(getTeamScores(str(i)))
 
 
 

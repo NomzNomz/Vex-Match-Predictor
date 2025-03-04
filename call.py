@@ -76,15 +76,15 @@ def getTeams(grade = "High School"):
     page = 1
     per_page = 250
 
-    while True:
+    for i in range(170):
         params = {
             "grade[]": grade,
             "per_page": per_page,
             "page": page
         }
         response = requests.get(url, headers=headers, params=params)
-        if response.status_code != 200:
-            break
+        # if response.status_code != 200:
+        #     break
         data = response.json()
         teams = data.get('data', [])
 
@@ -95,20 +95,8 @@ def getTeams(grade = "High School"):
 
         page += 1
 
-    return all_teams
+    return data
     # Query parameters
-
-    # Make the request
-    response = requests.get(url, headers=headers, params=params)
-
-    # Check response
-    #if response.status_code == 200:
-        #print(response.json())
-    #else:
-        #print(f"Error: {response.status_code}, {response.text}")
-
-    teams = response.json()
-    return(teams)
 
 def getTeamsFromEvent(eventId):
     # API endpoint
@@ -213,7 +201,7 @@ match_scores = []
 teamlist = getTeams()
 pprint(teamlist)
 import json
-
+#
 with open("teams_data.json", "w") as f:
     json.dump(teamlist, f, indent=4)
 # print(getEventIds())

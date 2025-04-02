@@ -88,7 +88,6 @@ def getTeams(grade = "High School"):
     #     break
     data = response.json()
     teams = data.get('data', [])
-    pprint(teams)
     # if not isinstance(teams, list) or not teams:
     #     break
 
@@ -96,7 +95,7 @@ def getTeams(grade = "High School"):
 
     # page += 1
 
-    return data
+    return teams
     # Query parameters
 
 # def getTeamsFromEvent(eventId):
@@ -191,7 +190,7 @@ def extract_id(data: dict) -> str:
     Extracts and returns the string representation of the value
     associated with the key 'id' in the provided dictionary.
     """
-    return str(data.get('id', 'Key not found'))
+    return str(data.get('id'))
 
 
 from pprint import pprint
@@ -206,7 +205,10 @@ import pandas as pd
 #print(match_scores)
 
 teamlist = getTeams()
-pprint(teamlist)
+teamIdList = []
+for i in teamlist:
+    teamIdList.append(extract_id(i))
+pprint(teamIdList)
 
 
 # import json

@@ -79,7 +79,7 @@ def getTeams(grade = "High School"):
     # for i in range(170):
     params = {
         "grade[]": "High School",
-        "country[]": "US",
+        #"country[]": "US",
         "per_page": per_page,
         "page": page
     }
@@ -186,12 +186,18 @@ def getTeams(grade = "High School"):
 #         match_scores.append(temp_match_scores)
 #     return match_scores
 
+def extract_id(data: dict) -> str:
+    """
+    Extracts and returns the string representation of the value
+    associated with the key 'id' in the provided dictionary.
+    """
+    return str(data.get('id', 'Key not found'))
+
 
 from pprint import pprint
 import pandas as pd
 # pprint(getTeamScores("25600Y"))
 # print(getTeams().get('data'))
-match_scores = []
 #for team in getTeams().get('data'):
     #for match in get_match_scores(team.get('id')):
         #if match not in match_scores:
@@ -201,6 +207,8 @@ match_scores = []
 
 teamlist = getTeams()
 pprint(teamlist)
+
+
 # import json
 # #
 # with open("teams_data.json", "w") as f:

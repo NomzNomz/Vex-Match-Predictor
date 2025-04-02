@@ -74,14 +74,15 @@ def getTeams(grade = "High School"):
 
     all_teams = []
     page = 1
-    per_page = 250
+    per_page = 999
 
     # for i in range(170):
     params = {
         "grade[]": "High School",
         #"country[]": "US",
         "per_page": per_page,
-        "page": page
+        "page": page,
+        "program[]":1,
     }
     response = requests.get(url, headers=headers, params=params)
     # if response.status_code != 200:
@@ -188,9 +189,9 @@ def getTeams(grade = "High School"):
 def extract_id(data: dict) -> str:
     """
     Extracts and returns the string representation of the value
-    associated with the key 'id' in the provided dictionary.
+    associated with the key id in the provided dictionary.
     """
-    return str(data.get('id'))
+    return str(data.get("id", "Key not found"))
 
 
 from pprint import pprint
@@ -205,6 +206,7 @@ import pandas as pd
 #print(match_scores)
 
 teamlist = getTeams()
+pprint(teamlist)
 teamIdList = []
 for i in teamlist:
     teamIdList.append(extract_id(i))

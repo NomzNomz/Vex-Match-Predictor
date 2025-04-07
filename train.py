@@ -2,6 +2,7 @@ from tensorflow.keras.models import Sequential, load_model
 from tensorflow.keras.layers import Dense
 from sklearn.metrics import accuracy_score
 
+print("hello")
 model = Sequential()
 model.add(Dense(units=32, activation='relu', input_dim=len(X_train.columns)))
 model.add(Dense(units=64, activation='relu'))

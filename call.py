@@ -58,7 +58,7 @@ import requests
 #
 #     return(response.json())
 
-def getTeams(grade = "High School"):
+def getTeams(page, grade = "High School"):
     # API endpoint
     url = ("https://www.robotevents.com/api/v2/teams")
 
@@ -73,7 +73,6 @@ def getTeams(grade = "High School"):
     }
 
     all_teams = []
-    page = 1
     per_page = 999
 
     # for i in range(170):
@@ -204,17 +203,17 @@ import pandas as pd
             #match_scores.append(match)
 
 #print(match_scores)
-
-teamlist = getTeams()
-pprint(teamlist)
 teamIdList = []
-for i in teamlist:
-    teamIdList.append(extract_id(i))
-pprint(teamIdList)
-
+for i in range(151):
+    teamlist = getTeams(i+1)
+    pprint(teamlist)
+    for j in teamlist:
+        teamIdList.append(extract_id(j))
+    pprint(teamIdList)
+pd.DataFrame(teamIdList).to_csv("teamIDs.csv")
 
 # import json
-# #
+#
 # with open("teams_data.json", "w") as f:
 #     json.dump(teamlist, f, indent=4)
 # print(getEventIds())

@@ -1,0 +1,1691 @@
+{
+    "meta": {
+        "current_page": 170,
+        "first_page_url": "https://www.robotevents.com/api/v2/teams?page=1",
+        "from": 42251,
+        "last_page": 170,
+        "last_page_url": "https://www.robotevents.com/api/v2/teams?page=170",
+        "next_page_url": null,
+        "path": "https://www.robotevents.com/api/v2/teams",
+        "per_page": 250,
+        "prev_page_url": "https://www.robotevents.com/api/v2/teams?page=169",
+        "to": 42312,
+        "total": 42312
+    },
+    "data": [
+        {
+            "id": 65975,
+            "number": "99939A",
+            "team_name": "Depredadores",
+            "robot_name": "Mi bestia 3.0",
+            "organization": "Liceo Industrial Puente alto",
+            "location": {
+                "venue": null,
+                "address_1": "",
+                "address_2": null,
+                "city": "Santiago",
+                "region": null,
+                "postcode": "8180533",
+                "country": "Chile",
+                "coordinates": {
+                    "lat": -33.4,
+                    "lon": -70.7
+                }
+            },
+            "registered": false,
+            "program": {
+                "id": 1,
+                "name": "VEX V5 Robotics Competition",
+                "code": "V5RC"
+            },
+            "grade": "High School"
+        },
+        {
+            "id": 65976,
+            "number": "99939B",
+            "team_name": "F.O.R",
+            "robot_name": "Corki",
+            "organization": "Liceo Industrial Puente alto",
+            "location": {
+                "venue": null,
+                "address_1": "",
+                "address_2": null,
+                "city": "Santiago",
+                "region": null,
+                "postcode": "8180533",
+                "country": "Chile",
+                "coordinates": {
+                    "lat": -33.4,
+                    "lon": -70.7
+                }
+            },
+            "registered": false,
+            "program": {
+                "id": 1,
+                "name": "VEX V5 Robotics Competition",
+                "code": "V5RC"
+            },
+            "grade": "High School"
+        },
+        {
+            "id": 65977,
+            "number": "99939C",
+            "team_name": "Nocturnos",
+            "robot_name": "Aries",
+            "organization": "Liceo Industrial Puente Alto",
+            "location": {
+                "venue": null,
+                "address_1": "",
+                "address_2": null,
+                "city": "Santiago",
+                "region": null,
+                "postcode": "8180533",
+                "country": "Chile",
+                "coordinates": {
+                    "lat": -33.4,
+                    "lon": -70.7
+                }
+            },
+            "registered": false,
+            "program": {
+                "id": 1,
+                "name": "VEX V5 Robotics Competition",
+                "code": "V5RC"
+            },
+            "grade": "High School"
+        },
+        {
+            "id": 64245,
+            "number": "99941B",
+            "team_name": "The Master Builders",
+            "robot_name": "Deerbot",
+            "organization": "Deerpark C.B.S.",
+            "location": {
+                "venue": null,
+                "address_1": "",
+                "address_2": null,
+                "city": "Cork",
+                "region": null,
+                "postcode": "T12XT96",
+                "country": "Ireland",
+                "coordinates": {
+                    "lat": 51.9,
+                    "lon": -8.5
+                }
+            },
+            "registered": false,
+            "program": {
+                "id": 1,
+                "name": "VEX V5 Robotics Competition",
+                "code": "V5RC"
+            },
+            "grade": "High School"
+        },
+        {
+            "id": 66916,
+            "number": "99944",
+            "team_name": "Briar Jumpers",
+            "robot_name": null,
+            "organization": "Somerset High School",
+            "location": {
+                "venue": null,
+                "address_1": "",
+                "address_2": null,
+                "city": "Somerset",
+                "region": "Kentucky",
+                "postcode": "42501",
+                "country": "United States",
+                "coordinates": {
+                    "lat": 37.1,
+                    "lon": -84.6
+                }
+            },
+            "registered": false,
+            "program": {
+                "id": 1,
+                "name": "VEX V5 Robotics Competition",
+                "code": "V5RC"
+            },
+            "grade": "High School"
+        },
+        {
+            "id": 64400,
+            "number": "99946",
+            "team_name": "Mojave High School",
+            "robot_name": "Robo Coyote A",
+            "organization": "Mojave High School",
+            "location": {
+                "venue": null,
+                "address_1": "",
+                "address_2": null,
+                "city": "Hesperia",
+                "region": "California",
+                "postcode": "92345",
+                "country": "United States",
+                "coordinates": {
+                    "lat": 34.4,
+                    "lon": -117.3
+                }
+            },
+            "registered": false,
+            "program": {
+                "id": 1,
+                "name": "VEX V5 Robotics Competition",
+                "code": "V5RC"
+            },
+            "grade": "High School"
+        },
+        {
+            "id": 64401,
+            "number": "99946B",
+            "team_name": "Mojave High School ",
+            "robot_name": "Robo Coyote B",
+            "organization": "Mojave High School",
+            "location": {
+                "venue": null,
+                "address_1": "",
+                "address_2": null,
+                "city": "Hesperia",
+                "region": "California",
+                "postcode": "92345",
+                "country": "United States",
+                "coordinates": {
+                    "lat": 34.4,
+                    "lon": -117.3
+                }
+            },
+            "registered": false,
+            "program": {
+                "id": 1,
+                "name": "VEX V5 Robotics Competition",
+                "code": "V5RC"
+            },
+            "grade": "High School"
+        },
+        {
+            "id": 70241,
+            "number": "99947W",
+            "team_name": "Billings West High School",
+            "robot_name": "BearBot",
+            "organization": "Billings West High School",
+            "location": {
+                "venue": null,
+                "address_1": "",
+                "address_2": null,
+                "city": "Billings",
+                "region": "Montana",
+                "postcode": "59102",
+                "country": "United States",
+                "coordinates": {
+                    "lat": 45.8,
+                    "lon": -108.6
+                }
+            },
+            "registered": false,
+            "program": {
+                "id": 1,
+                "name": "VEX V5 Robotics Competition",
+                "code": "V5RC"
+            },
+            "grade": "High School"
+        },
+        {
+            "id": 65971,
+            "number": "99948A",
+            "team_name": "Colegio T.P Nocedal",
+            "robot_name": "",
+            "organization": "Colegio T\u00e9cnico Profesional Nocedal",
+            "location": {
+                "venue": null,
+                "address_1": "",
+                "address_2": null,
+                "city": "Santiago",
+                "region": null,
+                "postcode": "8831268",
+                "country": "Chile",
+                "coordinates": {
+                    "lat": -22.5,
+                    "lon": -68.9
+                }
+            },
+            "registered": false,
+            "program": {
+                "id": 1,
+                "name": "VEX V5 Robotics Competition",
+                "code": "V5RC"
+            },
+            "grade": "High School"
+        },
+        {
+            "id": 70556,
+            "number": "99949",
+            "team_name": "SCOTS Nuts",
+            "robot_name": null,
+            "organization": "Howell High School",
+            "location": {
+                "venue": null,
+                "address_1": "",
+                "address_2": null,
+                "city": "Howell",
+                "region": "Michigan",
+                "postcode": "48843",
+                "country": "United States",
+                "coordinates": {
+                    "lat": 42.6,
+                    "lon": -83.9
+                }
+            },
+            "registered": false,
+            "program": {
+                "id": 1,
+                "name": "VEX V5 Robotics Competition",
+                "code": "V5RC"
+            },
+            "grade": "High School"
+        },
+        {
+            "id": 70557,
+            "number": "99949B",
+            "team_name": "SCOTS Bolts",
+            "robot_name": null,
+            "organization": "Howell High School",
+            "location": {
+                "venue": null,
+                "address_1": "",
+                "address_2": null,
+                "city": "Howell",
+                "region": "Michigan",
+                "postcode": "48843",
+                "country": "United States",
+                "coordinates": {
+                    "lat": 42.6,
+                    "lon": -83.9
+                }
+            },
+            "registered": false,
+            "program": {
+                "id": 1,
+                "name": "VEX V5 Robotics Competition",
+                "code": "V5RC"
+            },
+            "grade": "High School"
+        },
+        {
+            "id": 65747,
+            "number": "99950A",
+            "team_name": "Kinnick High School",
+            "robot_name": null,
+            "organization": "Kinnick High School",
+            "location": {
+                "venue": null,
+                "address_1": "",
+                "address_2": null,
+                "city": "Fpo",
+                "region": "Armed Forces Pacific",
+                "postcode": "96349",
+                "country": "United States",
+                "coordinates": {
+                    "lat": 30.4,
+                    "lon": -87.6
+                }
+            },
+            "registered": false,
+            "program": {
+                "id": 1,
+                "name": "VEX V5 Robotics Competition",
+                "code": "V5RC"
+            },
+            "grade": "High School"
+        },
+        {
+            "id": 68941,
+            "number": "99958A",
+            "team_name": "WSHS Robotics",
+            "robot_name": "",
+            "organization": "Winter Springs High School",
+            "location": {
+                "venue": null,
+                "address_1": "",
+                "address_2": null,
+                "city": "Winter Spgs",
+                "region": "Florida",
+                "postcode": "32708",
+                "country": "United States",
+                "coordinates": {
+                    "lat": 28.7,
+                    "lon": -81.3
+                }
+            },
+            "registered": false,
+            "program": {
+                "id": 1,
+                "name": "VEX V5 Robotics Competition",
+                "code": "V5RC"
+            },
+            "grade": "High School"
+        },
+        {
+            "id": 66028,
+            "number": "99959W",
+            "team_name": "WatfordUTC",
+            "robot_name": "TechnoPath",
+            "organization": "Watford UTC",
+            "location": {
+                "venue": null,
+                "address_1": "",
+                "address_2": null,
+                "city": "Watford",
+                "region": null,
+                "postcode": "WD24 4PT",
+                "country": "United Kingdom",
+                "coordinates": {
+                    "lat": 51.7,
+                    "lon": -0.4
+                }
+            },
+            "registered": false,
+            "program": {
+                "id": 1,
+                "name": "VEX V5 Robotics Competition",
+                "code": "V5RC"
+            },
+            "grade": "High School"
+        },
+        {
+            "id": 64812,
+            "number": "99960A",
+            "team_name": "Brain Overload",
+            "robot_name": "",
+            "organization": "Chasewood Learning",
+            "location": {
+                "venue": null,
+                "address_1": "",
+                "address_2": null,
+                "city": "Aurora",
+                "region": "Illinois",
+                "postcode": "60504",
+                "country": "United States",
+                "coordinates": {
+                    "lat": 41.8,
+                    "lon": -88.2
+                }
+            },
+            "registered": false,
+            "program": {
+                "id": 1,
+                "name": "VEX V5 Robotics Competition",
+                "code": "V5RC"
+            },
+            "grade": "High School"
+        },
+        {
+            "id": 67886,
+            "number": "99966A",
+            "team_name": "Owltronics 1",
+            "robot_name": "Owlbot",
+            "organization": "GARLAND HIGH SCHOOL",
+            "location": {
+                "venue": null,
+                "address_1": "",
+                "address_2": null,
+                "city": "Garland",
+                "region": "Texas",
+                "postcode": "75040",
+                "country": "United States",
+                "coordinates": {
+                    "lat": 32.9,
+                    "lon": -96.6
+                }
+            },
+            "registered": true,
+            "program": {
+                "id": 1,
+                "name": "VEX V5 Robotics Competition",
+                "code": "V5RC"
+            },
+            "grade": "High School"
+        },
+        {
+            "id": 67887,
+            "number": "99966B",
+            "team_name": "Owltronics 2",
+            "robot_name": "Owl 1",
+            "organization": "Garland HS",
+            "location": {
+                "venue": null,
+                "address_1": "",
+                "address_2": null,
+                "city": "Garland Tx",
+                "region": "Texas",
+                "postcode": "75040",
+                "country": "United States",
+                "coordinates": {
+                    "lat": 32.9,
+                    "lon": -96.6
+                }
+            },
+            "registered": false,
+            "program": {
+                "id": 1,
+                "name": "VEX V5 Robotics Competition",
+                "code": "V5RC"
+            },
+            "grade": "High School"
+        },
+        {
+            "id": 67888,
+            "number": "99966C",
+            "team_name": "Owltronics 3",
+            "robot_name": "Owl 2",
+            "organization": "GARLAND CHRISTIAN ACADEMY",
+            "location": {
+                "venue": null,
+                "address_1": "",
+                "address_2": null,
+                "city": "Garland ",
+                "region": "Texas",
+                "postcode": "75040",
+                "country": "United States",
+                "coordinates": {
+                    "lat": 32.9,
+                    "lon": -96.6
+                }
+            },
+            "registered": false,
+            "program": {
+                "id": 1,
+                "name": "VEX V5 Robotics Competition",
+                "code": "V5RC"
+            },
+            "grade": "High School"
+        },
+        {
+            "id": 67889,
+            "number": "99966D",
+            "team_name": "Owltronics 4",
+            "robot_name": "Owl 3",
+            "organization": "Garland HS",
+            "location": {
+                "venue": null,
+                "address_1": "",
+                "address_2": null,
+                "city": "Garland ",
+                "region": "Texas",
+                "postcode": "75040",
+                "country": "United States",
+                "coordinates": {
+                    "lat": 32.9,
+                    "lon": -96.6
+                }
+            },
+            "registered": false,
+            "program": {
+                "id": 1,
+                "name": "VEX V5 Robotics Competition",
+                "code": "V5RC"
+            },
+            "grade": "High School"
+        },
+        {
+            "id": 101996,
+            "number": "99966E",
+            "team_name": "Owltronics 4",
+            "robot_name": "Owl force 1",
+            "organization": "Garland HS",
+            "location": {
+                "venue": null,
+                "address_1": "",
+                "address_2": null,
+                "city": "Garland ",
+                "region": "Texas",
+                "postcode": "75040",
+                "country": "United States",
+                "coordinates": {
+                    "lat": 32.9,
+                    "lon": -96.6
+                }
+            },
+            "registered": false,
+            "program": {
+                "id": 1,
+                "name": "VEX V5 Robotics Competition",
+                "code": "V5RC"
+            },
+            "grade": "High School"
+        },
+        {
+            "id": 110957,
+            "number": "99966X",
+            "team_name": "Owlbot",
+            "robot_name": "Mr. Robot",
+            "organization": "Garland HS",
+            "location": {
+                "venue": null,
+                "address_1": "",
+                "address_2": null,
+                "city": "Garland",
+                "region": "Texas",
+                "postcode": "75040",
+                "country": "United States",
+                "coordinates": {
+                    "lat": 32.9,
+                    "lon": -96.6
+                }
+            },
+            "registered": true,
+            "program": {
+                "id": 1,
+                "name": "VEX V5 Robotics Competition",
+                "code": "V5RC"
+            },
+            "grade": "High School"
+        },
+        {
+            "id": 93182,
+            "number": "99969B",
+            "team_name": "Westwood Warriors",
+            "robot_name": "",
+            "organization": "Westwood Middle School",
+            "location": {
+                "venue": null,
+                "address_1": "",
+                "address_2": null,
+                "city": "Gainesville",
+                "region": "Florida",
+                "postcode": "32605",
+                "country": "United States",
+                "coordinates": {
+                    "lat": 29.7,
+                    "lon": -82.4
+                }
+            },
+            "registered": false,
+            "program": {
+                "id": 1,
+                "name": "VEX V5 Robotics Competition",
+                "code": "V5RC"
+            },
+            "grade": "High School"
+        },
+        {
+            "id": 67841,
+            "number": "99970A",
+            "team_name": "Tolles Jonathan Alder ",
+            "robot_name": "Pioneer 1",
+            "organization": "Tolles Technical Center",
+            "location": {
+                "venue": null,
+                "address_1": "",
+                "address_2": null,
+                "city": "Plain City",
+                "region": "Ohio",
+                "postcode": "43064",
+                "country": "United States",
+                "coordinates": {
+                    "lat": 40.1,
+                    "lon": -83.3
+                }
+            },
+            "registered": false,
+            "program": {
+                "id": 1,
+                "name": "VEX V5 Robotics Competition",
+                "code": "V5RC"
+            },
+            "grade": "High School"
+        },
+        {
+            "id": 67842,
+            "number": "99970B",
+            "team_name": "Tolles Jonathan Alder ",
+            "robot_name": "Pioneer 2",
+            "organization": "Tolles Technical Center",
+            "location": {
+                "venue": null,
+                "address_1": "",
+                "address_2": null,
+                "city": "Plain City",
+                "region": "Ohio",
+                "postcode": "43064",
+                "country": "United States",
+                "coordinates": {
+                    "lat": 40.1,
+                    "lon": -83.3
+                }
+            },
+            "registered": false,
+            "program": {
+                "id": 1,
+                "name": "VEX V5 Robotics Competition",
+                "code": "V5RC"
+            },
+            "grade": "High School"
+        },
+        {
+            "id": 67843,
+            "number": "99970C",
+            "team_name": "Tolles Jonathan Alder ",
+            "robot_name": "Pioneer 3",
+            "organization": "Tolles Technical Center",
+            "location": {
+                "venue": null,
+                "address_1": "",
+                "address_2": null,
+                "city": "Plain City",
+                "region": "Ohio",
+                "postcode": "43064",
+                "country": "United States",
+                "coordinates": {
+                    "lat": 40.1,
+                    "lon": -83.3
+                }
+            },
+            "registered": false,
+            "program": {
+                "id": 1,
+                "name": "VEX V5 Robotics Competition",
+                "code": "V5RC"
+            },
+            "grade": "High School"
+        },
+        {
+            "id": 67844,
+            "number": "99970D",
+            "team_name": "Tolles Jonathan Alder ",
+            "robot_name": "Pioneer 4",
+            "organization": "Tolles Technical Center",
+            "location": {
+                "venue": null,
+                "address_1": "",
+                "address_2": null,
+                "city": "Plain City",
+                "region": "Ohio",
+                "postcode": "43064",
+                "country": "United States",
+                "coordinates": {
+                    "lat": 40.1,
+                    "lon": -83.3
+                }
+            },
+            "registered": false,
+            "program": {
+                "id": 1,
+                "name": "VEX V5 Robotics Competition",
+                "code": "V5RC"
+            },
+            "grade": "High School"
+        },
+        {
+            "id": 158329,
+            "number": "99977A",
+            "team_name": "Kura Tech",
+            "robot_name": null,
+            "organization": "Kuramae Tech High School",
+            "location": {
+                "venue": null,
+                "address_1": "",
+                "address_2": null,
+                "city": "Tokyo",
+                "region": null,
+                "postcode": "11-0051",
+                "country": "Japan",
+                "coordinates": {
+                    "lat": 35.7,
+                    "lon": 139.8
+                }
+            },
+            "registered": true,
+            "program": {
+                "id": 1,
+                "name": "VEX V5 Robotics Competition",
+                "code": "V5RC"
+            },
+            "grade": "High School"
+        },
+        {
+            "id": 158330,
+            "number": "99977B",
+            "team_name": "Kura Tech",
+            "robot_name": null,
+            "organization": "Kuramae Tech High School",
+            "location": {
+                "venue": null,
+                "address_1": "",
+                "address_2": null,
+                "city": "Tokyo",
+                "region": null,
+                "postcode": "11-0051",
+                "country": "Japan",
+                "coordinates": {
+                    "lat": 35.7,
+                    "lon": 139.8
+                }
+            },
+            "registered": true,
+            "program": {
+                "id": 1,
+                "name": "VEX V5 Robotics Competition",
+                "code": "V5RC"
+            },
+            "grade": "High School"
+        },
+        {
+            "id": 178056,
+            "number": "99977C",
+            "team_name": "Kura Tech",
+            "robot_name": null,
+            "organization": "Kuramae Tech High School",
+            "location": {
+                "venue": null,
+                "address_1": "",
+                "address_2": null,
+                "city": "Tokyo",
+                "region": null,
+                "postcode": "11-0051",
+                "country": "Japan",
+                "coordinates": {
+                    "lat": 35.7,
+                    "lon": 139.8
+                }
+            },
+            "registered": true,
+            "program": {
+                "id": 1,
+                "name": "VEX V5 Robotics Competition",
+                "code": "V5RC"
+            },
+            "grade": "High School"
+        },
+        {
+            "id": 65443,
+            "number": "99978A",
+            "team_name": "Centaurus 1",
+            "robot_name": null,
+            "organization": "Centaurus High School",
+            "location": {
+                "venue": null,
+                "address_1": "",
+                "address_2": null,
+                "city": "Lafayette",
+                "region": "Colorado",
+                "postcode": "80026",
+                "country": "United States",
+                "coordinates": {
+                    "lat": 40,
+                    "lon": -105.1
+                }
+            },
+            "registered": false,
+            "program": {
+                "id": 1,
+                "name": "VEX V5 Robotics Competition",
+                "code": "V5RC"
+            },
+            "grade": "High School"
+        },
+        {
+            "id": 65444,
+            "number": "99978B",
+            "team_name": "Centaurus 2",
+            "robot_name": null,
+            "organization": "Centaurus High School",
+            "location": {
+                "venue": null,
+                "address_1": "",
+                "address_2": null,
+                "city": "Lafayette",
+                "region": "Colorado",
+                "postcode": "80026",
+                "country": "United States",
+                "coordinates": {
+                    "lat": 40,
+                    "lon": -105.1
+                }
+            },
+            "registered": false,
+            "program": {
+                "id": 1,
+                "name": "VEX V5 Robotics Competition",
+                "code": "V5RC"
+            },
+            "grade": "High School"
+        },
+        {
+            "id": 66203,
+            "number": "99980A",
+            "team_name": "HCA Robotics",
+            "robot_name": "",
+            "organization": "Robotics CLub",
+            "location": {
+                "venue": null,
+                "address_1": "",
+                "address_2": null,
+                "city": "Fort Worth",
+                "region": "Texas",
+                "postcode": "76148",
+                "country": "United States",
+                "coordinates": {
+                    "lat": 32.9,
+                    "lon": -97.3
+                }
+            },
+            "registered": false,
+            "program": {
+                "id": 1,
+                "name": "VEX V5 Robotics Competition",
+                "code": "V5RC"
+            },
+            "grade": "High School"
+        },
+        {
+            "id": 94947,
+            "number": "99989A",
+            "team_name": "Codemandos - Taco Libre",
+            "robot_name": "",
+            "organization": "Hendersonville High School",
+            "location": {
+                "venue": null,
+                "address_1": "",
+                "address_2": null,
+                "city": "Hendersonville",
+                "region": "Tennessee",
+                "postcode": "37075",
+                "country": "United States",
+                "coordinates": {
+                    "lat": 36.3,
+                    "lon": -86.6
+                }
+            },
+            "registered": true,
+            "program": {
+                "id": 1,
+                "name": "VEX V5 Robotics Competition",
+                "code": "V5RC"
+            },
+            "grade": "High School"
+        },
+        {
+            "id": 129948,
+            "number": "99989B",
+            "team_name": "Codemandos B",
+            "robot_name": null,
+            "organization": "Hendersonville High School",
+            "location": {
+                "venue": null,
+                "address_1": "",
+                "address_2": null,
+                "city": "Hendersonville",
+                "region": "Tennessee",
+                "postcode": "37075",
+                "country": "United States",
+                "coordinates": {
+                    "lat": 36.3,
+                    "lon": -86.6
+                }
+            },
+            "registered": true,
+            "program": {
+                "id": 1,
+                "name": "VEX V5 Robotics Competition",
+                "code": "V5RC"
+            },
+            "grade": "High School"
+        },
+        {
+            "id": 129949,
+            "number": "99989C",
+            "team_name": "CODEmandos C",
+            "robot_name": "",
+            "organization": "Hendersonville High School",
+            "location": {
+                "venue": null,
+                "address_1": "",
+                "address_2": null,
+                "city": "Hendersonville",
+                "region": "Tennessee",
+                "postcode": "37075",
+                "country": "United States",
+                "coordinates": {
+                    "lat": 36.3,
+                    "lon": -86.6
+                }
+            },
+            "registered": true,
+            "program": {
+                "id": 1,
+                "name": "VEX V5 Robotics Competition",
+                "code": "V5RC"
+            },
+            "grade": "High School"
+        },
+        {
+            "id": 129950,
+            "number": "99989D",
+            "team_name": "Codemandos - Codra Kai",
+            "robot_name": "",
+            "organization": "Hendersonville High School",
+            "location": {
+                "venue": null,
+                "address_1": "",
+                "address_2": null,
+                "city": "Hendersonville",
+                "region": "Tennessee",
+                "postcode": "37075",
+                "country": "United States",
+                "coordinates": {
+                    "lat": 36.3,
+                    "lon": -86.6
+                }
+            },
+            "registered": true,
+            "program": {
+                "id": 1,
+                "name": "VEX V5 Robotics Competition",
+                "code": "V5RC"
+            },
+            "grade": "High School"
+        },
+        {
+            "id": 129951,
+            "number": "99989E",
+            "team_name": "CODEmandos - Singularity",
+            "robot_name": "",
+            "organization": "Hendersonville High School",
+            "location": {
+                "venue": null,
+                "address_1": "",
+                "address_2": null,
+                "city": "Hendersonville",
+                "region": "Tennessee",
+                "postcode": "37075",
+                "country": "United States",
+                "coordinates": {
+                    "lat": 36.3,
+                    "lon": -86.6
+                }
+            },
+            "registered": false,
+            "program": {
+                "id": 1,
+                "name": "VEX V5 Robotics Competition",
+                "code": "V5RC"
+            },
+            "grade": "High School"
+        },
+        {
+            "id": 129953,
+            "number": "99989F",
+            "team_name": "CODEmandos - THE JANK TANK",
+            "robot_name": "",
+            "organization": "Hendersonville High School",
+            "location": {
+                "venue": null,
+                "address_1": "",
+                "address_2": null,
+                "city": "Hendersonville",
+                "region": "Tennessee",
+                "postcode": "37075",
+                "country": "United States",
+                "coordinates": {
+                    "lat": 36.3,
+                    "lon": -86.6
+                }
+            },
+            "registered": false,
+            "program": {
+                "id": 1,
+                "name": "VEX V5 Robotics Competition",
+                "code": "V5RC"
+            },
+            "grade": "High School"
+        },
+        {
+            "id": 142148,
+            "number": "99989G",
+            "team_name": "CODEmandos 7",
+            "robot_name": "",
+            "organization": "Hendersonville High School",
+            "location": {
+                "venue": null,
+                "address_1": "",
+                "address_2": null,
+                "city": "Hendersonville",
+                "region": "Tennessee",
+                "postcode": "37075",
+                "country": "United States",
+                "coordinates": {
+                    "lat": 36.3,
+                    "lon": -86.6
+                }
+            },
+            "registered": false,
+            "program": {
+                "id": 1,
+                "name": "VEX V5 Robotics Competition",
+                "code": "V5RC"
+            },
+            "grade": "High School"
+        },
+        {
+            "id": 66748,
+            "number": "99991A",
+            "team_name": "RoboValks",
+            "robot_name": "",
+            "organization": "Sacred Heart Academy",
+            "location": {
+                "venue": null,
+                "address_1": "",
+                "address_2": null,
+                "city": "Louisville",
+                "region": "Kentucky",
+                "postcode": "40206",
+                "country": "United States",
+                "coordinates": {
+                    "lat": 38.2,
+                    "lon": -85.7
+                }
+            },
+            "registered": false,
+            "program": {
+                "id": 1,
+                "name": "VEX V5 Robotics Competition",
+                "code": "V5RC"
+            },
+            "grade": "High School"
+        },
+        {
+            "id": 66749,
+            "number": "99991B",
+            "team_name": "Silly Goose",
+            "robot_name": "",
+            "organization": "Sacred Heart Academy",
+            "location": {
+                "venue": null,
+                "address_1": "",
+                "address_2": null,
+                "city": "Louisville",
+                "region": "Kentucky",
+                "postcode": "40206",
+                "country": "United States",
+                "coordinates": {
+                    "lat": 38.2,
+                    "lon": -85.7
+                }
+            },
+            "registered": false,
+            "program": {
+                "id": 1,
+                "name": "VEX V5 Robotics Competition",
+                "code": "V5RC"
+            },
+            "grade": "High School"
+        },
+        {
+            "id": 67223,
+            "number": "99992",
+            "team_name": "N.E.R.D.",
+            "robot_name": null,
+            "organization": "Dyke House Sports & Technology College",
+            "location": {
+                "venue": null,
+                "address_1": "",
+                "address_2": null,
+                "city": "Hartlepool",
+                "region": null,
+                "postcode": "TS24 8NQ",
+                "country": "United Kingdom",
+                "coordinates": {
+                    "lat": 54.7,
+                    "lon": -1.2
+                }
+            },
+            "registered": false,
+            "program": {
+                "id": 1,
+                "name": "VEX V5 Robotics Competition",
+                "code": "V5RC"
+            },
+            "grade": "High School"
+        },
+        {
+            "id": 109126,
+            "number": "99993E",
+            "team_name": "Saturn",
+            "robot_name": null,
+            "organization": "\u6df1\u5733\u5e02\u74e6\u7279\u6559\u80b2\u79d1\u6280\u6709\u9650\u516c\u53f8",
+            "location": {
+                "venue": null,
+                "address_1": "",
+                "address_2": null,
+                "city": "\u6df1\u5733",
+                "region": "Guangdong",
+                "postcode": "518000",
+                "country": "China",
+                "coordinates": {
+                    "lat": 22.5,
+                    "lon": 114
+                }
+            },
+            "registered": false,
+            "program": {
+                "id": 1,
+                "name": "VEX V5 Robotics Competition",
+                "code": "V5RC"
+            },
+            "grade": "High School"
+        },
+        {
+            "id": 66802,
+            "number": "99994K",
+            "team_name": "STEM Ninjas",
+            "robot_name": null,
+            "organization": "STEM Based Team K",
+            "location": {
+                "venue": null,
+                "address_1": "",
+                "address_2": null,
+                "city": "Kirkland",
+                "region": "Washington",
+                "postcode": "98033",
+                "country": "United States",
+                "coordinates": {
+                    "lat": 47.7,
+                    "lon": -122.2
+                }
+            },
+            "registered": false,
+            "program": {
+                "id": 1,
+                "name": "VEX V5 Robotics Competition",
+                "code": "V5RC"
+            },
+            "grade": "High School"
+        },
+        {
+            "id": 65220,
+            "number": "99997A",
+            "team_name": "TheEdge",
+            "robot_name": "TheEdge",
+            "organization": "TheEdge",
+            "location": {
+                "venue": null,
+                "address_1": "",
+                "address_2": null,
+                "city": "Redmond",
+                "region": "Washington",
+                "postcode": "98053",
+                "country": "United States",
+                "coordinates": {
+                    "lat": 47.6,
+                    "lon": -122
+                }
+            },
+            "registered": false,
+            "program": {
+                "id": 1,
+                "name": "VEX V5 Robotics Competition",
+                "code": "V5RC"
+            },
+            "grade": "High School"
+        },
+        {
+            "id": 67184,
+            "number": "99998",
+            "team_name": "Vandals",
+            "robot_name": "V1",
+            "organization": "Miami High School",
+            "location": {
+                "venue": null,
+                "address_1": "",
+                "address_2": null,
+                "city": "Miami",
+                "region": "Arizona",
+                "postcode": "85539",
+                "country": "United States",
+                "coordinates": {
+                    "lat": 33.4,
+                    "lon": -110.9
+                }
+            },
+            "registered": false,
+            "program": {
+                "id": 1,
+                "name": "VEX V5 Robotics Competition",
+                "code": "V5RC"
+            },
+            "grade": "High School"
+        },
+        {
+            "id": 118355,
+            "number": "99999A",
+            "team_name": "Mechanical Advantage",
+            "robot_name": "",
+            "organization": "Ernest S. Mcbride Senior. High School",
+            "location": {
+                "venue": null,
+                "address_1": "",
+                "address_2": null,
+                "city": "Long Beach",
+                "region": "California",
+                "postcode": "90808",
+                "country": "United States",
+                "coordinates": {
+                    "lat": 33.8,
+                    "lon": -118.1
+                }
+            },
+            "registered": false,
+            "program": {
+                "id": 1,
+                "name": "VEX V5 Robotics Competition",
+                "code": "V5RC"
+            },
+            "grade": "High School"
+        },
+        {
+            "id": 166570,
+            "number": "99999B",
+            "team_name": "Mechanical Advantage",
+            "robot_name": "",
+            "organization": "Ernest S. Mcbride Senior. High School",
+            "location": {
+                "venue": null,
+                "address_1": "",
+                "address_2": null,
+                "city": "Long Beach",
+                "region": "California",
+                "postcode": "90808",
+                "country": "United States",
+                "coordinates": {
+                    "lat": 33.8,
+                    "lon": -118.1
+                }
+            },
+            "registered": false,
+            "program": {
+                "id": 1,
+                "name": "VEX V5 Robotics Competition",
+                "code": "V5RC"
+            },
+            "grade": "High School"
+        },
+        {
+            "id": 133078,
+            "number": "99999C",
+            "team_name": "Mechanical Advantage",
+            "robot_name": "",
+            "organization": "Ernest S. Mcbride Senior. High School",
+            "location": {
+                "venue": null,
+                "address_1": "",
+                "address_2": null,
+                "city": "Long Beach",
+                "region": "California",
+                "postcode": "90808",
+                "country": "United States",
+                "coordinates": {
+                    "lat": 33.8,
+                    "lon": -118.1
+                }
+            },
+            "registered": false,
+            "program": {
+                "id": 1,
+                "name": "VEX V5 Robotics Competition",
+                "code": "V5RC"
+            },
+            "grade": "High School"
+        },
+        {
+            "id": 133079,
+            "number": "99999D",
+            "team_name": "Mechanical Advantage",
+            "robot_name": "",
+            "organization": "Ernest S. Mcbride Senior. High School",
+            "location": {
+                "venue": null,
+                "address_1": "",
+                "address_2": null,
+                "city": "Long Beach",
+                "region": "California",
+                "postcode": "90808",
+                "country": "United States",
+                "coordinates": {
+                    "lat": 33.8,
+                    "lon": -118.1
+                }
+            },
+            "registered": true,
+            "program": {
+                "id": 1,
+                "name": "VEX V5 Robotics Competition",
+                "code": "V5RC"
+            },
+            "grade": "High School"
+        },
+        {
+            "id": 133081,
+            "number": "99999E",
+            "team_name": "Mechanical Advantage",
+            "robot_name": "",
+            "organization": "Ernest S. Mcbride Senior. High School",
+            "location": {
+                "venue": null,
+                "address_1": "",
+                "address_2": null,
+                "city": "Long Beach",
+                "region": "California",
+                "postcode": "90808",
+                "country": "United States",
+                "coordinates": {
+                    "lat": 33.8,
+                    "lon": -118.1
+                }
+            },
+            "registered": false,
+            "program": {
+                "id": 1,
+                "name": "VEX V5 Robotics Competition",
+                "code": "V5RC"
+            },
+            "grade": "High School"
+        },
+        {
+            "id": 166571,
+            "number": "99999F",
+            "team_name": "Mechanical Advantage",
+            "robot_name": "",
+            "organization": "Ernest S. Mcbride Senior. High School",
+            "location": {
+                "venue": null,
+                "address_1": "",
+                "address_2": null,
+                "city": "Long Beach",
+                "region": "California",
+                "postcode": "90808",
+                "country": "United States",
+                "coordinates": {
+                    "lat": 33.8,
+                    "lon": -118.1
+                }
+            },
+            "registered": true,
+            "program": {
+                "id": 1,
+                "name": "VEX V5 Robotics Competition",
+                "code": "V5RC"
+            },
+            "grade": "High School"
+        },
+        {
+            "id": 166572,
+            "number": "99999G",
+            "team_name": "Mechanical Advantage",
+            "robot_name": "",
+            "organization": "Ernest S. Mcbride Senior. High School",
+            "location": {
+                "venue": null,
+                "address_1": "",
+                "address_2": null,
+                "city": "Long Beach",
+                "region": "California",
+                "postcode": "90808",
+                "country": "United States",
+                "coordinates": {
+                    "lat": 33.8,
+                    "lon": -118.1
+                }
+            },
+            "registered": true,
+            "program": {
+                "id": 1,
+                "name": "VEX V5 Robotics Competition",
+                "code": "V5RC"
+            },
+            "grade": "High School"
+        },
+        {
+            "id": 133082,
+            "number": "99999J",
+            "team_name": "Mechanical Advantage",
+            "robot_name": "",
+            "organization": "Ernest S. Mcbride Senior. High School",
+            "location": {
+                "venue": null,
+                "address_1": "",
+                "address_2": null,
+                "city": "Long Beach",
+                "region": "California",
+                "postcode": "90808",
+                "country": "United States",
+                "coordinates": {
+                    "lat": 33.8,
+                    "lon": -118.1
+                }
+            },
+            "registered": false,
+            "program": {
+                "id": 1,
+                "name": "VEX V5 Robotics Competition",
+                "code": "V5RC"
+            },
+            "grade": "High School"
+        },
+        {
+            "id": 145192,
+            "number": "99999K",
+            "team_name": "Mechanical Advantage",
+            "robot_name": "",
+            "organization": "Ernest S. Mcbride Senior. High School",
+            "location": {
+                "venue": null,
+                "address_1": "",
+                "address_2": null,
+                "city": "Long Beach",
+                "region": "California",
+                "postcode": "90808",
+                "country": "United States",
+                "coordinates": {
+                    "lat": 33.8,
+                    "lon": -118.1
+                }
+            },
+            "registered": false,
+            "program": {
+                "id": 1,
+                "name": "VEX V5 Robotics Competition",
+                "code": "V5RC"
+            },
+            "grade": "High School"
+        },
+        {
+            "id": 166573,
+            "number": "99999N",
+            "team_name": "Mechanical Advantage",
+            "robot_name": "",
+            "organization": "Ernest S. Mcbride Senior. High School",
+            "location": {
+                "venue": null,
+                "address_1": "",
+                "address_2": null,
+                "city": "Long Beach",
+                "region": "California",
+                "postcode": "90808",
+                "country": "United States",
+                "coordinates": {
+                    "lat": 33.8,
+                    "lon": -118.1
+                }
+            },
+            "registered": false,
+            "program": {
+                "id": 1,
+                "name": "VEX V5 Robotics Competition",
+                "code": "V5RC"
+            },
+            "grade": "High School"
+        },
+        {
+            "id": 144854,
+            "number": "99999P",
+            "team_name": "Mechanical Advantage",
+            "robot_name": "",
+            "organization": "Ernest S. Mcbride Senior. High School",
+            "location": {
+                "venue": null,
+                "address_1": "",
+                "address_2": null,
+                "city": "Long Beach",
+                "region": "California",
+                "postcode": "90808",
+                "country": "United States",
+                "coordinates": {
+                    "lat": 33.8,
+                    "lon": -118.1
+                }
+            },
+            "registered": true,
+            "program": {
+                "id": 1,
+                "name": "VEX V5 Robotics Competition",
+                "code": "V5RC"
+            },
+            "grade": "High School"
+        },
+        {
+            "id": 103412,
+            "number": "99999V",
+            "team_name": "Mechanical Advantage",
+            "robot_name": "Yogi-Bogi's Chariot",
+            "organization": "Ernest S. Mcbride Senior. High School",
+            "location": {
+                "venue": null,
+                "address_1": "",
+                "address_2": null,
+                "city": "Long Beach",
+                "region": "California",
+                "postcode": "90808",
+                "country": "United States",
+                "coordinates": {
+                    "lat": 33.8,
+                    "lon": -118.1
+                }
+            },
+            "registered": false,
+            "program": {
+                "id": 1,
+                "name": "VEX V5 Robotics Competition",
+                "code": "V5RC"
+            },
+            "grade": "High School"
+        },
+        {
+            "id": 103411,
+            "number": "99999W",
+            "team_name": "Mechanical Advantage",
+            "robot_name": "Friday",
+            "organization": "Ernest S. Mcbride Senior. High School",
+            "location": {
+                "venue": null,
+                "address_1": "",
+                "address_2": null,
+                "city": "Long Beach",
+                "region": "California",
+                "postcode": "90808",
+                "country": "United States",
+                "coordinates": {
+                    "lat": 33.8,
+                    "lon": -118.1
+                }
+            },
+            "registered": false,
+            "program": {
+                "id": 1,
+                "name": "VEX V5 Robotics Competition",
+                "code": "V5RC"
+            },
+            "grade": "High School"
+        },
+        {
+            "id": 65412,
+            "number": "99999X",
+            "team_name": "Mechanical Advantage",
+            "robot_name": "",
+            "organization": "ERNEST S. MCBRIDE SR. HIGH",
+            "location": {
+                "venue": null,
+                "address_1": "",
+                "address_2": null,
+                "city": "Long Beach",
+                "region": "California",
+                "postcode": "90808",
+                "country": "United States",
+                "coordinates": {
+                    "lat": 33.8,
+                    "lon": -118.1
+                }
+            },
+            "registered": true,
+            "program": {
+                "id": 1,
+                "name": "VEX V5 Robotics Competition",
+                "code": "V5RC"
+            },
+            "grade": "High School"
+        },
+        {
+            "id": 89547,
+            "number": "99999Y",
+            "team_name": "Mechanical Advantage",
+            "robot_name": "Delta",
+            "organization": "ERNEST S. MCBRIDE SR. HIGH",
+            "location": {
+                "venue": null,
+                "address_1": "",
+                "address_2": null,
+                "city": "Long Beach",
+                "region": "California",
+                "postcode": "90808",
+                "country": "United States",
+                "coordinates": {
+                    "lat": 33.8,
+                    "lon": -118.1
+                }
+            },
+            "registered": false,
+            "program": {
+                "id": 1,
+                "name": "VEX V5 Robotics Competition",
+                "code": "V5RC"
+            },
+            "grade": "High School"
+        },
+        {
+            "id": 99313,
+            "number": "99999Z",
+            "team_name": "Mechanical Advantage",
+            "robot_name": "",
+            "organization": "ERNEST S. MCBRIDE SR. HIGH",
+            "location": {
+                "venue": null,
+                "address_1": "",
+                "address_2": null,
+                "city": "Long Beach",
+                "region": "California",
+                "postcode": "90808",
+                "country": "United States",
+                "coordinates": {
+                    "lat": 33.8,
+                    "lon": -118.1
+                }
+            },
+            "registered": false,
+            "program": {
+                "id": 1,
+                "name": "VEX V5 Robotics Competition",
+                "code": "V5RC"
+            },
+            "grade": "High School"
+        }
+    ]
+}

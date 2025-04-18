@@ -73,8 +73,27 @@ model.compile(optimizer=Adam(learning_rate=0.001),
               metrics=['accuracy'])
 
 # STEP 7: Train the model
-model.fit(X_train, y_train, epochs=50, batch_size=16, validation_split=0.2)
+history = model.fit(
+    X_train, y_train,
+    epochs=50,
+    batch_size=16,
+    validation_split=0.2,
+    verbose=1
+)
 
 # STEP 8: Evaluate on test set
 loss, accuracy = model.evaluate(X_test, y_test)
 print(f"\nTest Accuracy: {accuracy:.4f}")
+
+import matplotlib.pyplot as plt
+
+# Plot accuracy over epochs
+plt.plot(history.history['accuracy'], label='Training Accuracy')
+plt.plot(history.history['val_accuracy'], label='Validation Accuracy')
+plt.title('Model Accuracy Over Epochs')
+plt.xlabel('Epoch')
+plt.ylabel('Accuracy')
+plt.legend()
+plt.grid(True)
+plt.tight_layout()
+plt.show()

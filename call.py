@@ -1,4 +1,5 @@
 import csv
+import json
 
 import requests
 
@@ -147,7 +148,7 @@ def getMatches(teamId):
 
     params = {
         #"program": "V5RC",
-        #"season[]": "180"
+        #"season[]": "190"
     }
 
     try:
@@ -216,27 +217,48 @@ teamIdList = []
     #pprint(teamIdList)
 #pd.DataFrame(teamIdList).to_csv("teamIDs.csv")
 
-def process_csv_and_query(csv_path, api_key):
-    with open(csv_path, newline='') as csvfile:
+def process_and_write_csv(input_path, output_path, api_key):
+    output_rows = []
+
+    with open(input_path, newline='') as csvfile:
         reader = csv.reader(csvfile)
         for row in reader:
             if len(row) < 2:
+                output_rows.append(row + ["Invalid row"])
                 continue
+
             team_number = row[1]
             if not team_number.isdigit():
+                output_rows.append(row + ["Invalid team number"])
                 continue
 
-            data = getMatches(str(team_number))
-            if data:
-                print(f"Results for team number {team_number}:")
-                print(data)
-            #else:
-                #print(f"No data found for team number {team_number}")
+            params = {
+                "number": team_number
+            }
+            data = getMatches(team_number)
 
+            if data:
+                json_str = json.dumps(data, ensure_ascii=False)
+                print(f"Team {team_number} data:\n{json_str}\n")
+                output_rows.append(row + [json_str])
+            else:
+                output_rows.append(row + ["Not found"])
+
+                # Write results to a new CSV
+            with open(output_path, "w", newline='', encoding="utf-8") as csvfile:
+                writer = csv.writer(csvfile)
+                writer.writerows(output_rows)
+
+            print(f"\n✅ Full data written to: {output_path}")
+
+# Example usage
 if __name__ == "__main__":
-    API_KEY = "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIzIiwianRpIjoiZmExNTlkODcwYWRiZTU2MGNmMzQwNTU2ZmRmN2JiMjRmNjgwZWQ3ZDg5YWE5ZTdiZjQxMDNhMTZlZTBlNmNkODFkZDZiNDNkODJmYmNiYTYiLCJpYXQiOjE3MzY1MTcwOTIuMjcxNTA1MSwibmJmIjoxNzM2NTE3MDkyLjI3MTUwOCwiZXhwIjoyNjgzMjAxODkyLjI2NDk4Nywic3ViIjoiMTQyNTkwIiwic2NvcGVzIjpbXX0.lda8sp5OZ4ArofulBB13K-0638X0A2EyGAz8yAt6TG3pd-2Z9KxZH_xXv5ZMaEkeUAOiGp69NSlZznWqgiig49JIVlGVuSSqklHPxNlzlr8wEOu1nA8cW-iZdrUv2FRt-gj_TYaD1am1VxXGJA-K3AYqlK-16tgWBlCPrfOs3MiiGduPJPa0QEMvy5XPaGLTLViwuzHKMIQWD60qKwZakzbx7x5rWlluCwBoXcu6X7IbdmFgFiUeEqyBCs3JbIn52aEaWS9i7488WHGjhRmUSM-BB_odLVWAoVAYwJEajPO-jl820cFqm57Ul08gfUspGrPCsP2iW59OJhm2seMfPhkkOHH08YG_vhrRnN-xVnDy82MlVC3x0cvr6JyVk9AK49NbVhgw9C30V2S5wNrZnvJSrqVlql2L3yhufEvkJBkjIxWWC4Fw-idOvEezjCIoJ9ISf-Dd-gDIVLH3FDLSWMbLWEnV_dBmw25mM-zJUepA1eCACnlJdl0YgnVw6FeI7plsicpa3x7NG70MW_vB9CX9qLOIF8sQw3xX94Dnbwgq3XcUeCJ8geCSISCu4gr2SKz4PKk1hkumlUMHQvHISeKPDj7WsCmrb8l_CvWCSA3e13_Zp2iTTfx-Cq-NLUc6xYrm4AQ6ZnlADRcWllGI483uj-nTjNZWFOp1imOeSlo"
-    CSV_PATH = "teamIDs.csv"
-    process_csv_and_query(CSV_PATH, API_KEY)
+    API_KEY = "your_api_key_here"
+    INPUT_CSV = "teamIDs.csv"
+    OUTPUT_CSV = "teamMatches.csv"
+    process_and_write_csv(INPUT_CSV, OUTPUT_CSV, API_KEY)
+
+
 
 # import json
 #

@@ -33,11 +33,34 @@ X_train, X_test, y_train, y_test = train_test_split(
 )
 
 # STEP 5: Build and train the Random Forest
-rf_model = RandomForestClassifier(n_estimators=100, random_state=42)
-rf_model.fit(X_train, y_train)
+train_acc = []
+test_acc = []
+tree_range = range(1, 101)
+
+for n in tree_range:
+    model = RandomForestClassifier(n_estimators=n, random_state=42)
+    model.fit(X_train, y_train)
+
+    train_score = model.score(X_train, y_train)
+    test_score = model.score(X_test, y_test)
+
+    train_acc.append(train_score)
+    test_acc.append(test_score)
 
 # STEP 6: Predict and evaluate
-y_pred = rf_model.predict(X_test)
+y_pred = model.predict(X_test)
 
 print("\nTest Accuracy:", accuracy_score(y_test, y_pred))
 print("\nClassification Report:\n", classification_report(y_test, y_pred))
+
+import matplotlib.pyplot as plt
+
+plt.plot(tree_range, train_acc, label="Training Accuracy")
+plt.plot(tree_range, test_acc, label="Test Accuracy")
+plt.title("Random Forest Accuracy vs Number of Trees")
+plt.xlabel("Number of Trees (n_estimators)")
+plt.ylabel("Accuracy")
+plt.legend()
+plt.grid(True)
+plt.tight_layout()
+plt.show()
